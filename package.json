@@ -1,0 +1,53 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -r test.helper.js app/**/*.test.js",
+    "coverage": "./node_modules/.bin/babel-node node_modules/.bin/babel-istanbul cover ./node_modules/.bin/_mocha --report html -- app/**/*.test.js --require test.helper.js",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --content-base app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.13.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "blanket": "^1.2.3",
+    "chai": "^3.5.0",
+    "css-loader": "^0.25.0",
+    "enzyme": "^2.4.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "isomorphic-fetch": "^2.2.1",
+    "istanbul": "^0.4.5",
+    "jsdom": "^9.5.0",
+    "mocha": "^3.0.2",
+    "mocha-multi": "^0.9.1",
+    "nock": "^8.0.0",
+    "node-sass": "^3.10.0",
+    "react-addons-test-utils": "^15.3.2",
+    "redux-mock-store": "^1.2.1",
+    "sass-loader": "^4.0.2",
+    "sinon": "^1.17.6",
+    "style-loader": "^0.13.1",
+    "tap": "^7.1.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}

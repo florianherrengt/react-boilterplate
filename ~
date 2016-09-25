@@ -1,0 +1,16 @@
+
+[0m[0m
+[0m  Configuration[0m
+  [32m  ✓[0m[90m show select the dev env by default[0m
+  [32m  ✓[0m[90m show select the provided env[0m
+
+[0m  <Home />[0m
+  [32m  ✓[0m[90m should not display the user if undefined[0m
+  [32m  ✓[0m[90m should display the username[0m
+
+[0m  The user reducer[0m
+  [32m  ✓[0m[90m should get and set the user[0m
+
+
+[92m [0m[32m 5 passing[0m[90m (85ms)[0m
+
